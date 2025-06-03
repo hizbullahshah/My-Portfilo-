@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="input-searcBtn">
+            <input type="text" value="" placeholder="Enter Location">
+            <button>Search</button>
+        </div>
+        <div class="main">
+        <h2 id="city">Harnai</h2>
+        <p id="country">country</p>
+        <img src="clear.png" id="img" alt="">
+        <h2 id="temp">38C</h2>
+        <h2 id="type">Clear</h2>
+        <div class="humidity">
+            <p>humidity</p>
+            <h2 id="humidity">34.5</h2>
+        </div>
+        </div>
+        
+        <div class="footer">
+            <div class="sunriseDiv">
+                <p>sunrise</p>
+                <p id="sunrise">7:00</p>
+            </div>
+
+            <div class="windDiv">
+                <p>WIND</p>
+                <p id="wind">4m/s</p>
+            </div>
+            <div class="sunsetDiv">
+                <img src="halfSun.png" id="halfsun" alt="">
+                <p>SUNSET</p>
+                <p id="sunset">7:00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
